@@ -63,6 +63,25 @@ hoge hoge hoge
     1. ふー
 1. ばー
 
+hoge hoge hoge
+
+1. hoge
+1. fuga
+```ShellSession
+$ echo hoge
+```
+1. piyo
+
+fuga fuga fuga
+
+1. hoge
+1. fuga
+    ```ShellSession
+    $ echo hoge
+    ```
+1. piyo
+
+
 # highlight
 ```
 $ pwd
