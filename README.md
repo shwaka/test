@@ -25,3 +25,25 @@ $ for f in *; do rm $f; done
 $ cd /tmp
 $ PS1='$ '
 ```
+
+# from why_CUI.md
+
+```ShellSession
+for i in a b c d e; do echo "hoge $i" > test$i.txt; done
+for i in a b c d e; do mv test$i.txt hoge$i.txt; done
+for i in a b c d e; do rm hoge$i.txt; done
+```
+
+```ShellSession
+for f in *.tex; do platex $f; dvipdfmx ${f/tex/dvi}; done
+```
+
+```ShellSession
+$ for i in a b c d e; do echo "hoge $i" > test$i.txt; done
+$ for i in a b c d e; do mv test$i.txt hoge$i.txt; done
+$ for i in a b c d e; do rm hoge$i.txt; done
+```
+
+```ShellSession
+$ for f in *.tex; do platex $f; dvipdfmx ${f/tex/dvi}; done
+```
