@@ -15,3 +15,8 @@ def hoge(n):
 
 \end{document}
 ```
+
+```console
+$ ls | grep hoge
+$ for f in *; do rm $f; done
+```
