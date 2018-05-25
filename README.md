@@ -47,3 +47,18 @@ $ for i in a b c d e; do rm hoge$i.txt; done
 ```ShellSession
 $ for f in *.tex; do platex $f; dvipdfmx ${f/tex/dvi}; done
 ```
+
+# enumerate
+1. hoge
+1. fuga
+  1. piyo
+  1. foo
+1. bar
+
+hoge hoge hoge
+
+1. ほげ
+1. ふが
+    1. ぴょ
+    1. ふー
+1. ばー
