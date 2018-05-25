@@ -20,3 +20,8 @@ def hoge(n):
 $ ls | grep hoge
 $ for f in *; do rm $f; done
 ```
+
+```ShellSession
+$ cd /tmp
+$ PS1='$ '
+```
