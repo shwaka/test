@@ -1,0 +1,13 @@
+* TODO something to do
+* DONE something already done
+* with subitem
+** TODO hoge
+** DONE fuga
+* markup
+  ~(setq hoge 123)~ is an example of lisp code.
+  =verbatim= is verbatim.
+
+  #+BEGIN_SRC emacs-lisp
+  (defun hoge ()
+    (+ 1 2))
+  #+END_SRC
