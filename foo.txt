@@ -6,3 +6,4 @@ foooooooo
 fooooo
 bar
 baz
+annotated
