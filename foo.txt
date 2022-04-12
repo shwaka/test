@@ -5,3 +5,4 @@ foo
 foooooooo
 fooooo
 bar
+baz
